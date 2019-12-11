@@ -2,4 +2,4 @@ Controls:
 - W: up
 - S: down
 - Space Bar: hit
-[rtmManager.png]
+![Rhythm Manager](rtmManager.png)
