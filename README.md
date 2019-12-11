@@ -10,3 +10,5 @@ What to look for:
 ![Track Scriptable Object](track.png)
 
 ![EnemySpawner](spawner.png)
+
+Ignore the ScoreManager for now
