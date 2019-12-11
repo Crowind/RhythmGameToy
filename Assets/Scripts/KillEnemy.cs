@@ -6,6 +6,7 @@ class KillEnemy : MonoBehaviour {
 
 
 	public float range = 0.5f;
+	public float tolerance = 0.2f;
 	public GameObject hitbox;
 	public Material inactiveHitbox;
 	public Material activeHitbox;
@@ -25,7 +26,12 @@ class KillEnemy : MonoBehaviour {
 
 				if (col.gameObject.CompareTag("Enemy")) {
 					col.gameObject.GetComponent<EnemyMove>().Kill();
-					
+					if (Vector3.Distance(col.gameObject.transform.position, hitbox.transform.position) < tolerance) {
+						Debug.Log("Great!");
+					}
+					else {
+						Debug.Log("Meh...");
+					}
 				}
 			}
 		}

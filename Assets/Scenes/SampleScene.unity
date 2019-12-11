@@ -699,6 +699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 1
+  tolerance: 0.35
   hitbox: {fileID: 1797258327}
   inactiveHitbox: {fileID: 2100000, guid: c8d6c8e2fc8ef584b80a8609e0349ed3, type: 2}
   activeHitbox: {fileID: 2100000, guid: 35894e6876b17df4caeec64a8d969e4b, type: 2}
@@ -854,6 +855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn: {fileID: 1473734582323140464, guid: 3cb8a8bf9c511184e9683105d98974e3, type: 3}
+  spawnAmount: 0.3
 --- !u!4 &1872723962
 Transform:
   m_ObjectHideFlags: 0
