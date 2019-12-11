@@ -261,6 +261,7 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6d453b195f8bb754e93faaeb5d48a711, type: 2}
   doubleTime: 1
   upbeat: 0
+  tolerance: 0.1
 --- !u!4 &352602495
 Transform:
   m_ObjectHideFlags: 0
@@ -699,7 +700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 1
-  tolerance: 0.35
   hitbox: {fileID: 1797258327}
   inactiveHitbox: {fileID: 2100000, guid: c8d6c8e2fc8ef584b80a8609e0349ed3, type: 2}
   activeHitbox: {fileID: 2100000, guid: 35894e6876b17df4caeec64a8d969e4b, type: 2}
