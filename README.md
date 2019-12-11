@@ -9,4 +9,4 @@ What to look for:
 
 ![Track Scriptable Object](track.png)
 
-![EnemySpawner](spawn.png)
+![EnemySpawner](spawner.png)
